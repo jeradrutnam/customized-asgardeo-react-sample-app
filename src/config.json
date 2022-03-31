@@ -1,0 +1,7 @@
+{
+    "clientID": "vQ9V3_BFTUyVmcgx2z0RoFXxxS4a",
+    "serverOrigin": "https://dev.api.asgardeo.io/t/jerad",
+    "signInRedirectURL": "https://localhost:5000",
+    "signOutRedirectURL": "https://localhost:5000",
+    "scope": ["openid","profile"]
+}
