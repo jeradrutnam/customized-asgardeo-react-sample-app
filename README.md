@@ -1,1 +1,1 @@
-# customized-asgardeo-react-smaple-app
+# customized-asgardeo-react-sample-app
