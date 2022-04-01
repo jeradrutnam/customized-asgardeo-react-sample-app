@@ -204,8 +204,8 @@ form {
 
 .field > input {
     display: block;
-    padding: 10px 0;
-    width: 100%;
+    padding: 10px 12px;
+    width: calc(100% - 24px);
     border: 1px solid #eee;
 }
 
