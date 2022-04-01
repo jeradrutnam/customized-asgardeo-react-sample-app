@@ -37,6 +37,24 @@ a {
     width: 100%;
 }
 
+.ui.form input:not([type]):focus, 
+.ui.form input[type=date]:focus, 
+.ui.form input[type=datetime-local]:focus, 
+.ui.form input[type=email]:focus, 
+.ui.form input[type=file]:focus, 
+.ui.form input[type=number]:focus, 
+.ui.form input[type=password]:focus, 
+.ui.form input[type=search]:focus, 
+.ui.form input[type=tel]:focus, 
+.ui.form input[type=text]:focus, 
+.ui.form input[type=time]:focus, 
+.ui.form input[type=url]:focus,
+input:focus, textarea:focus, select:focus {
+    outline: none !important;
+    border: 1px solid #bc261a;
+    box-shadow: 0 0 4px #bc261a;
+}
+
 hr.page-title-underline {
     width: 40px;
     margin: 0 auto;
