@@ -202,7 +202,7 @@ form {
     margin-bottom: 10px;
 }
 
-.field > input {
+.field > input, .field > textarea, .field > select {
     display: block;
     padding: 10px 12px;
     width: calc(100% - 24px);
