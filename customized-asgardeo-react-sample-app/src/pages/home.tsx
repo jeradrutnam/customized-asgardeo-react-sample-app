@@ -164,7 +164,12 @@ export const HomePage: FunctionComponent<HomePagePropsInterface> = (
                                         <div className="column" style={ {"width": "300px" } }>
                                             <div className="section-box">
                                                 <div className="section-box-header">Events</div>
-                                                <div className="section-box-content"></div>
+                                                <div className="section-box-content">
+                                                    <ul className="list">
+                                                        <li>Some event happening <br /> <i className="event-date">2022-04-14</i></li>
+                                                        <li>Some event happening <br /> <i className="event-date">2022-04-14</i></li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                             <div className="section-box">
                                                 <div className="section-box-header">Announcements</div>

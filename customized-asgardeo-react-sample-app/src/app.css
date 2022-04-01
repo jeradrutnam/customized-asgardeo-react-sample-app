@@ -314,6 +314,30 @@ form {
 
 .section-box-content {
     padding: 20px;
+    text-align: left;
+}
+
+ul.list {
+    padding: 0 20px;
+    list-style: none;
+}
+
+ul.list > li {
+    margin-bottom: 10px;
+}
+
+ul.list > li::before {
+    content: "\2022";
+    color: #bc261a;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+.event-date {
+    color: #bc261a;
+    font-size: 14px;
 }
 
 .content {
