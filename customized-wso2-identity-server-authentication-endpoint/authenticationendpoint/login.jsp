@@ -156,13 +156,13 @@
         <div class="ui container medium center aligned middle aligned">
 
             <div class="ui segment">
-                <h3 class="ui header">
+                <h1 class="page-title">
                     <% if (isIdentifierFirstLogin(inputType)) { %>
                         <%=AuthenticationEndpointUtil.i18n(resourceBundle, "welcome") + " " + username%>
                     <% } else { %>
                         <%=AuthenticationEndpointUtil.i18n(resourceBundle, "login")%>
                     <% } %>
-                </h3>
+                </h1>
                 <hr class="page-title-underline" />
 
                 <div class="segment-form">

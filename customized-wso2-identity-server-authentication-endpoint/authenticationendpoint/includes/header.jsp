@@ -50,6 +50,11 @@ footer {
     color: #fff;
 }
 
+.page-title {
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
 .ui.primary.button, .ui.primary.buttons .button {
     background-color: #bc261a;
 }

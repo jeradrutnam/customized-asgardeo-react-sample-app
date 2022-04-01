@@ -134,8 +134,8 @@ export const HomePage: FunctionComponent<HomePagePropsInterface> = (
                             </div>
                             <div className="content">
                                 <div className="container">
-                                    <div className="grid">
-                                        <div className="column side-nav-section">
+                                    <div className="flex-grid">
+                                        <div className="column side-nav-section" style={ {"width": "250px" } }>
                                             <ul className="side-nav">
                                                 <li className="active">Student Profile</li>
                                                 <li>Certifications</li>
@@ -144,7 +144,7 @@ export const HomePage: FunctionComponent<HomePagePropsInterface> = (
                                                 <li>Help</li>
                                             </ul>
                                         </div>
-                                        <div className="column">
+                                        <div className="column flex-column-auto">
                                             <h1 className="page-title">Student Profile</h1>
                                             <hr className="page-title-underline" />
                                             <div>
@@ -161,7 +161,7 @@ export const HomePage: FunctionComponent<HomePagePropsInterface> = (
                                                 </form>
                                             </div>
                                         </div>
-                                        <div className="column">
+                                        <div className="column" style={ {"width": "300px" } }>
                                             <div className="section-box">
                                                 <div className="section-box-header">Events</div>
                                                 <div className="section-box-content"></div>
