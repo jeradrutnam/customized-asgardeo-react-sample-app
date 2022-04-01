@@ -68,10 +68,10 @@ hr.page-title-underline {
     flex-direction: column;
     height: 100%;
     background-repeat: no-repeat;
-    background-size: 100% auto;
     background-attachment: fixed;
-    background-position: 0 0;
     margin-top: 0 !important;
+    background-position: center;
+    background-size: cover;
 }
 
 .home-description {
